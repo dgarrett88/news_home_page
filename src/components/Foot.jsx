@@ -21,7 +21,7 @@ const Foot = () => {
                     Reviving Retro PCs
                 </p>
                 <p className='foot-text-1'>
-                    Whappens when old PCs are given modern upgrades?
+                    What happens when old PCs are given modern upgrades?
                 </p>
             </div>
         </div>
