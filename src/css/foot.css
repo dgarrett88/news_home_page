@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Tajawal:wght@200&display=swap');
+
+.foot-container {
+    display: flex;
+    /* justify-content: space-between;  */
+    /* align-items: stretch;  */
+    margin: 2.5rem 10.5rem 0 11rem;
+    padding: 1rem 0; 
+    font-family: "Inter", serif;
+    width: 100%;
+}
+
+.foot-item-1,
+.foot-item-2,
+.foot-item-3 {
+    display: flex;
+    justify-content: space-around;
+    /* flex:1;  */
+    gap: 15px; 
+    width: 26.1%;
+}
+
+.foot-item-2 {
+}
+
+
+
+.foot-image img {
+    width: 100px;
+    height: auto; 
+    object-fit: cover; 
+}
+
+.foot-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    /* flex: 1;  */
+}
+
+.foot-id {
+    font-size: 28px;
+    font-weight: 700;
+    color: hsl(5, 85%, 63%);
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.foot-title {
+    font-size: 18px;
+    font-weight: 800;
+    margin: 0.5rem 0;
+    color: hsl(240, 100%, 5%);
+    letter-spacing: 1px;
+}
+
+.foot-text-1,
+.foot-text-2,
+.foot-text-3
+ {
+    font-size: 15px;
+    line-height: 1.5rem;
+    color: hsl(236, 13%, 42%);
+    margin: 0;
+    width: 90%;
+}
+
+.foot-text-1,
+.foot-text-2 {
+    width: 78%;
+}

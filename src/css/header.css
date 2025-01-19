@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Tajawal:wght@200&display=swap');
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 20px 13px 20px;
+    background-color: #FFF;
+    color: hsl(236, 13%, 42%);
+    margin: 5rem 0 1.9rem 0;
+    font-family: "Inter", serif;
+}
+
+.logo-container {
+    width: 50%;
+    margin: 0 8.65rem 0 9.9rem;
+}
+
+.nav-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 9.2rem 0 7rem;
+}
+
+.nav-item p{
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: .01rem;
+    cursor: pointer;
+    margin: 0;
+    
+}
+
+.nav-item p:hover {
+    color: hsl(5, 85%, 63%)
+}
