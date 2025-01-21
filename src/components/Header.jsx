@@ -10,19 +10,19 @@ const Header = () => {
       </div>
       <div className="nav-container">
         <div className="nav-item">
-          <p>Home</p>
+          <a a href="">Home</a>
         </div>
         <div className="nav-item">
-          <p>New</p>
+          <a href="">New</a>
         </div>
         <div className="nav-item">
-          <p>Popular</p>
+          <a href="">Popular</a>
         </div>
         <div className="nav-item">
-          <p>Trending</p>
+          <a href="">Trending</a>
         </div>
         <div className="nav-item">
-          <p>Categories</p>
+          <a href="">Categories</a>
         </div>
       </div>
     </div>

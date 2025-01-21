@@ -19,9 +19,9 @@ const Main = () => {
               power of the platforms back into the hands of the people. But is
               it really fulfilling its promise?
             </p>
-            <div className="btn">
+            <button className="btn">
               <p>READ MORE</p>
-            </div>
+            </button>
           </div>
         </div>
       </div>

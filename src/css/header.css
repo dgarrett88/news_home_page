@@ -7,31 +7,34 @@
     padding: 7px 20px 13px 20px;
     background-color: #FFF;
     color: hsl(236, 13%, 42%);
-    margin: 5rem 0 1.9rem 0;
+    margin: 5.1rem 0 2rem 0;
     font-family: "Inter", serif;
 }
 
 .logo-container {
+    display: flex;
     width: 50%;
-    margin: 0 8.65rem 0 9.9rem;
+    margin: 0 auto 0 9.5rem;
 }
 
 .nav-container {
-    width: 50%;
+    width: 32%;
     display: flex;
     justify-content: space-between;
-    margin: 0 9.2rem 0 7rem;
+    margin: 0 8.5rem 0 auto; 
 }
 
-.nav-item p{
+.nav-item a{
     font-weight: 400;
     font-size: 15px;
     letter-spacing: .01rem;
     cursor: pointer;
     margin: 0;
+    text-decoration: none;
+    color:hsl(236, 13%, 42%)
     
 }
 
-.nav-item p:hover {
+.nav-item a:hover {
     color: hsl(5, 85%, 63%)
 }
